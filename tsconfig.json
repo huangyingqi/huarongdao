@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "strictNullChecks": false,
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "target": "es5",
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "filesGlob": [
+    "./src/*.ts"
+  ]
+}
