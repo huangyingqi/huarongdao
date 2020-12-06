@@ -59,7 +59,7 @@ class Game{
   }
 
   private loadRes(): void {
-    this._app.loader.add("assets/huarongdao/images/spritesheet.json")
+    this._app.loader.add("btn_huang.png", "assets/images/btn_huang.png")
      .load((loader, resources) => {
         console.log('Load Res OK!',PIXI.Texture);
 

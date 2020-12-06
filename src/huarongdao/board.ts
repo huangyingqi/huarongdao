@@ -90,7 +90,7 @@ export class Board{
   shuffle(arr: number[]): number[]{
     let n = arr.length;
     let random:number;
-    while(0!=n){
+    while(1!=n){
         random =  (Math.random() * n--) >>> 0; // 无符号右移位运算符向下取整
         [arr[n], arr[random]] = [arr[random], arr[n]] // ES6的结构赋值实现变量互换
     }

@@ -40,13 +40,6 @@ export class Scene{
 
   drawBackGround(): void{
 
-    let bg = PIXI.Texture.from("bg.jpg");
-    let background = new PIXI.TilingSprite(
-      bg,
-      this.app.screen.width,
-      this.app.screen.height);
-    this._containner.addChild(background);
-
   }
 
 }
